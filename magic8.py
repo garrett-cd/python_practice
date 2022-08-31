@@ -34,7 +34,7 @@ else:
 if name == "" and not question == "":
     print("Question:" + question)
     print(answer)
-elif name == "" and question == "":
+elif name == "" or not name == "" and question == "":
     print ("The Magic 8-Ball cannot provide a fortune unless you ask it something.")
 else:
     print(name + " asks: " + question)
