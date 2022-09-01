@@ -1,3 +1,6 @@
+#Sal's Shipping exercise from Codecademy 
+#Added input from user and responses for the most cost-efficient method of shipping (incl. cost)
+
 #get weight from user
 weight_str = input('What is the weight in pounds?')
 
